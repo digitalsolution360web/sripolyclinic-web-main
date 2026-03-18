@@ -164,22 +164,68 @@ const servicesData = {
   },
 
   "customised-diet-plan": {
-    title: "Customised Diet Plan",
-    subtitle: "Personal diet charts based on your health needs",
-    description:
-      "Personalized diet plans tailored to your medical conditions, lifestyle, and health goals.",
-    longDescription:
-      "Our customized diet plans are designed according to your body requirements, medical history, and daily routine to achieve long-term health benefits.",
-    image: "/assets/images/services/s3.jpg",
-    icon: "🥗",
-    features: ["Personal diet chart", "Condition-based nutrition", "Follow-up guidance"],
-    benefits: ["Improved health", "Better weight control", "Balanced nutrition"],
-    process: ["Assessment", "Plan creation", "Follow-ups"],
-    faqs: [],
-    price: "Starting from ₹1,999",
-    duration: "30 minutes",
-    bookingLink: "/book/customised-diet-plan",
-  },
+  title: "Customised Diet Plan in Hanamkonda",
+  subtitle: "Personalized diet charts based on your lifestyle, health needs, and medical history",
+  description:
+    "Looking for a customised diet plan in Hanamkonda that actually works for your lifestyle? At Sri Poly Clinic, we create personalized diet charts based on your unique health needs, daily routine, and medical history—so you can achieve real, long-term results.",
+
+  longDescription:
+    "Our customised diet plan service is not based on generic templates or internet diets. We carefully understand your body type, lifestyle habits, and health conditions before designing your plan. The goal is simple—create a diet that fits into your life naturally, without forcing extreme changes or restrictions. At Sri Poly Clinic, we believe that sustainable health comes from balanced nutrition and consistency, not short-term dieting.",
+
+  image: "/assets/images/services/s3.jpg",
+  icon: "🥗",
+
+  features: [
+    "Detailed nutrition assessment",
+    "Personalized meal planning",
+    "Diet plan based on medical conditions",
+    "Lifestyle and eating habit guidance",
+    "Continuous support and adjustments",
+  ],
+
+  benefits: [
+    "Improved overall health and energy levels",
+    "Better weight management and control",
+    "Balanced nutrition tailored to your body",
+    "Easy-to-follow meal plans",
+    "Long-term lifestyle improvement",
+  ],
+
+  process: [
+    "Initial Consultation – Understanding your health goals, lifestyle, and medical background",
+    "Body & Nutrition Analysis – Evaluating eating habits and body requirements",
+    "Personalized Diet Plan Creation – Customized diet chart for your needs",
+    "Implementation & Guidance – Easy instructions and practical tips",
+    "Follow-Up & Adjustments – Monitoring progress and improving results",
+  ],
+
+  faqs: [
+    {
+      question: "Is the diet plan customized for every individual?",
+      answer:
+        "Yes, every diet plan is tailored based on your body, lifestyle, and health goals.",
+    },
+    {
+      question: "Will I need to follow strict dieting?",
+      answer:
+        "No, our plans are practical and easy to follow without extreme restrictions.",
+    },
+    {
+      question: "Can this help with weight loss?",
+      answer:
+        "Yes, the plan is designed to support healthy and sustainable weight loss.",
+    },
+    {
+      question: "Do you consider medical conditions?",
+      answer:
+        "Absolutely. We create diet plans based on your medical history and requirements.",
+    },
+  ],
+
+  price: "₹1,999",
+  duration: "30 Minutes",
+  bookingLink: "/book/customised-diet-plan",
+},
 
   "body-composition-analysis": {
     title: "Body Composition Analysis",
@@ -254,22 +300,69 @@ const servicesData = {
   },
 
   "anxiety-management": {
-    title: "Anxiety Management",
-    subtitle: "Therapy for calmness and emotional control",
-    description:
-      "Professional therapy to manage anxiety and emotional stress.",
-    longDescription:
-      "Our anxiety management sessions help you develop coping strategies, emotional regulation, and mental clarity.",
-    image: "/assets/images/services/s8.jpg",
-    icon: "🧠",
-    features: ["Therapy sessions", "Relaxation techniques"],
-    benefits: ["Reduced anxiety", "Better focus"],
-    process: ["Assessment", "Therapy"],
-    faqs: [],
-    price: "Starting from ₹1,499",
-    duration: "45 minutes",
-    bookingLink: "/book/anxiety-management",
-  },
+  title: "Anxiety Management in Hanamkonda",
+  subtitle: "Professional support to reduce stress, anxiety, and improve emotional well-being",
+
+  description:
+    "Feeling overwhelmed, stressed, or constantly anxious? At Sri Poly Clinic, we offer professional anxiety management in Hanamkonda to help you regain control over your thoughts, emotions, and daily life.",
+
+  longDescription:
+    "Our anxiety management sessions focus on understanding the root cause of your stress and helping you develop practical coping strategies. Instead of just temporary relief, we work on emotional regulation, improving thought patterns, and building mental clarity. Each session is personalized to your situation, so you can progress at your own pace in a comfortable and supportive environment.",
+
+  image: "/assets/images/services/s8.jpg",
+  icon: "🧠",
+
+  features: [
+    "One-on-one counselling sessions",
+    "Personalized anxiety management techniques",
+    "Practical tools for daily stress handling",
+    "Guidance for improving emotional balance",
+    "Supportive and confidential environment",
+  ],
+
+  benefits: [
+    "Reduced anxiety and stress levels",
+    "Better focus and mental clarity",
+    "Improved emotional control",
+    "Increased confidence in daily life",
+    "Healthier coping mechanisms",
+  ],
+
+  process: [
+    "Understanding Your Situation – Discussing concerns, triggers, and mental state",
+    "Identifying Patterns – Recognizing thoughts and habits causing anxiety",
+    "Strategy Building – Learning simple techniques for real-life situations",
+    "Practice & Guidance – Applying techniques in daily routine",
+    "Progress Tracking – Monitoring improvement and adjusting strategies",
+  ],
+
+  faqs: [
+    {
+      question: "How do anxiety management sessions work?",
+      answer:
+        "We use personalized counselling techniques to help you understand and manage your anxiety effectively.",
+    },
+    {
+      question: "How many sessions will I need?",
+      answer:
+        "It depends on your condition, but many people start seeing improvement within a few sessions.",
+    },
+    {
+      question: "Are the sessions confidential?",
+      answer:
+        "Yes, all sessions are completely private and confidential.",
+    },
+    {
+      question: "Can this help with stress and overthinking?",
+      answer:
+        "Absolutely. Our sessions are designed to address stress, overthinking, and emotional imbalance.",
+    },
+  ],
+
+  price: "₹1,499",
+  duration: "45 Minutes",
+  bookingLink: "/book/anxiety-management",
+},
 
   "depression-management": {
     title: "Depression Management",
