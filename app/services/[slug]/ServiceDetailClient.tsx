@@ -133,12 +133,12 @@ export default function ServiceDetailClient({ service, slug }: ServiceDetailProp
             <div className="lg:col-span-2">
               {activeTab === 'overview' && (
                 <div className="bg-white rounded-2xl p-8 shadow-sm">
-                  <h2 className="text-3xl font-bold mb-6">About This Service</h2>
+                  <h2 className="text-3xl font-bold mb-6 text-black">About This Service</h2>
                   <p className="text-gray-700 leading-relaxed mb-6 whitespace-pre-line">
                     {service.longDescription}
                   </p>
                   
-                  <h3 className="text-2xl font-semibold mb-4 mt-8">Key Benefits</h3>
+                  <h3 className="text-2xl font-semibold mb-4 mt-8 text-black">Key Benefits</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                     {service.benefits.map((benefit, index) => (
                       <div key={index} className="flex items-start gap-3">
@@ -152,7 +152,7 @@ export default function ServiceDetailClient({ service, slug }: ServiceDetailProp
 
               {activeTab === 'features' && (
                 <div className="bg-white rounded-2xl p-8 shadow-sm">
-                  <h2 className="text-3xl font-bold mb-6">What We Offer</h2>
+                  <h2 className="text-3xl font-bold mb-6 text-black">What We Offer</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {service.features.map((feature, index) => (
                       <div key={index} className="flex items-start gap-3 p-4 bg-blue-50 rounded-xl">
@@ -166,7 +166,7 @@ export default function ServiceDetailClient({ service, slug }: ServiceDetailProp
 
               {activeTab === 'process' && (
                 <div className="bg-white rounded-2xl p-8 shadow-sm">
-                  <h2 className="text-3xl font-bold mb-8">Our Process</h2>
+                  <h2 className="text-3xl font-bold mb-8 text-black">Our Process</h2>
                   <div className="space-y-6">
                     {service.process.map((step, index) => (
                       <div key={index} className="flex gap-4">
@@ -184,7 +184,7 @@ export default function ServiceDetailClient({ service, slug }: ServiceDetailProp
 
               {activeTab === 'faq' && (
                 <div className="bg-white rounded-2xl p-8 shadow-sm">
-                  <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
+                  <h2 className="text-3xl font-bold mb-6 text-black">Frequently Asked Questions</h2>
                   <div className="space-y-4">
                     {service.faqs.map((faq, index) => (
                       <details key={index} className="group border rounded-lg">
@@ -206,7 +206,7 @@ export default function ServiceDetailClient({ service, slug }: ServiceDetailProp
             <div className="space-y-6">
               {/* Booking Card */}
               <div className="bg-white rounded-2xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-4">Ready to Start?</h3>
+                <h3 className="text-xl font-bold mb-4 text-black">Ready to Start?</h3>
                 <p className="text-gray-600 mb-6">
                   Book your session today and take the first step towards better health.
                 </p>
@@ -223,7 +223,7 @@ export default function ServiceDetailClient({ service, slug }: ServiceDetailProp
 
               {/* Why Choose Us Card */}
               <div className="bg-gradient-to-br from-blue-600 to-purple-700 rounded-2xl p-6 text-white">
-                <h3 className="text-xl font-bold mb-4">Why Choose Us</h3>
+                <h3 className="text-xl font-bold mb-4 text-white">Why Choose Us</h3>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-2">
                     <FaCheckCircle className="text-white/80" />
@@ -251,25 +251,25 @@ export default function ServiceDetailClient({ service, slug }: ServiceDetailProp
       {/* Related Services Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-8 text-center">Related Services</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center text-black">Related Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link href="/nutrition-planning" className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition group">
               <span className="text-4xl mb-3 block">🥗</span>
-              <h3 className="font-semibold mb-2">Nutrition Planning</h3>
+              <h3 className="font-semibold mb-2 text-black">Nutrition Planning</h3>
               <span className="text-blue-600 group-hover:translate-x-2 inline-block transition-transform">
                 Learn More →
               </span>
             </Link>
             <Link href="/psychology-counseling" className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition group">
               <span className="text-4xl mb-3 block">🧠</span>
-              <h3 className="font-semibold mb-2">Psychology Counseling</h3>
+              <h3 className="font-semibold mb-2 text-black">Psychology Counseling</h3>
               <span className="text-blue-600 group-hover:translate-x-2 inline-block transition-transform">
                 Learn More →
               </span>
             </Link>
             <Link href="/yoga-sessions" className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition group">
               <span className="text-4xl mb-3 block">🧘</span>
-              <h3 className="font-semibold mb-2">Yoga Sessions</h3>
+              <h3 className="font-semibold mb-2 text-black">Yoga Sessions</h3>
               <span className="text-blue-600 group-hover:translate-x-2 inline-block transition-transform">
                 Learn More →
               </span>

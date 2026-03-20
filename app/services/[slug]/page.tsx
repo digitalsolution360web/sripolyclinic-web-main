@@ -44,7 +44,7 @@ const servicesData = {
     ],
     price: "Starting from ₹2,999/session",
     duration: "60 minutes per session",
-    bookingLink: "/book/nutrition-planning"
+    bookingLink: "/appointment"
   },
   "psychology-counseling": {
     title: "Psychology Counseling",
@@ -86,7 +86,7 @@ const servicesData = {
     ],
     price: "Starting from ₹1,499/session",
     duration: "50 minutes per session",
-    bookingLink: "/book/psychology-counseling"
+    bookingLink: "/appointment"
   },
   "yoga-sessions": {
     title: "Guided Yoga Sessions",
@@ -128,7 +128,7 @@ const servicesData = {
     ],
     price: "Starting from ₹699/session",
     duration: "60-75 minutes per session",
-    bookingLink: "/book/yoga-sessions"
+    bookingLink: "/appointment"
   },
    "obesity-weight-management": {
     title: "Obesity Weight Management",
@@ -160,7 +160,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹2,499",
     duration: "45 minutes",
-    bookingLink: "/book/obesity-weight-management",
+    bookingLink: "/appointment",
   },
 
   "customised-diet-plan": {
@@ -224,7 +224,7 @@ const servicesData = {
 
   price: "₹1,999",
   duration: "30 Minutes",
-  bookingLink: "/book/customised-diet-plan",
+  bookingLink: "/appointment",
 },
 
   "body-composition-analysis": {
@@ -242,7 +242,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹999",
     duration: "20 minutes",
-    bookingLink: "/book/body-composition-analysis",
+    bookingLink: "/appointment",
   },
 
   "diabetic-diet-plan": {
@@ -260,7 +260,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹1,999",
     duration: "30 minutes",
-    bookingLink: "/book/diabetic-diet-plan",
+    bookingLink: "/appointment",
   },
 
   "career-counselling": {
@@ -278,7 +278,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹1,499",
     duration: "45 minutes",
-    bookingLink: "/book/career-counselling",
+    bookingLink: "/appointment",
   },
 
   "family-counselling": {
@@ -296,7 +296,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹1,499",
     duration: "45 minutes",
-    bookingLink: "/book/family-counselling",
+    bookingLink: "/appointment",
   },
 
   "anxiety-management": {
@@ -361,7 +361,7 @@ const servicesData = {
 
   price: "₹1,499",
   duration: "45 Minutes",
-  bookingLink: "/book/anxiety-management",
+  bookingLink: "/appointment",
 },
 
   "depression-management": {
@@ -379,7 +379,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹1,499",
     duration: "45 minutes",
-    bookingLink: "/book/depression-management",
+    bookingLink: "/appointment",
   },
 
   "stress-management": {
@@ -397,7 +397,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹1,499",
     duration: "45 minutes",
-    bookingLink: "/book/stress-management",
+    bookingLink: "/appointment",
   },
 
   "infertility-yoga": {
@@ -415,7 +415,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹699",
     duration: "60 minutes",
-    bookingLink: "/book/infertility-yoga",
+    bookingLink: "/appointment",
   },
 
   "pregnancy-yoga": {
@@ -433,7 +433,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹699",
     duration: "60 minutes",
-    bookingLink: "/book/pregnancy-yoga",
+    bookingLink: "/appointment",
   },
 
   "weight-loss-yoga": {
@@ -451,7 +451,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹699",
     duration: "60 minutes",
-    bookingLink: "/book/weight-loss-yoga",
+    bookingLink: "/appointment",
   },
 
   "meditation": {
@@ -469,7 +469,7 @@ const servicesData = {
     faqs: [],
     price: "Starting from ₹499",
     duration: "30 minutes",
-    bookingLink: "/book/meditation",
+    bookingLink: "/appointment",
   },
 };
 
