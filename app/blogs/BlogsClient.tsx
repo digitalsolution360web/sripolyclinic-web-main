@@ -46,11 +46,11 @@ export default function BlogsBanner() {
   const currentBlogs = allBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
   const totalPages = Math.ceil(allBlogs.length / blogsPerPage);
 
-  const handlePageChange = (page) => {
-    if (typeof page === "number") setCurrentPage(page);
-    else if (page === "prev" && currentPage > 1) setCurrentPage(currentPage - 1);
-    else if (page === "next" && currentPage < totalPages) setCurrentPage(currentPage + 1);
-  };
+  const handlePageChange = (page: number | "prev" | "next") => {
+  if (typeof page === "number") setCurrentPage(page);
+  else if (page === "prev" && currentPage > 1) setCurrentPage(currentPage - 1);
+  else if (page === "next" && currentPage < totalPages) setCurrentPage(currentPage + 1);
+};
 
   return (
     <div className="w-full">
