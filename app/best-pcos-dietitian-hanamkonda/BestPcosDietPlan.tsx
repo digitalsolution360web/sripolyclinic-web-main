@@ -57,7 +57,7 @@ export default function BestPcosDietBanner() {
 
         <div className="absolute inset-0 flex flex-col justify-center items-center md:items-start max-w-7xl mx-auto px-6">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg">
-            Best Diet Plan for Weight Loss in Hanamkonda
+            PCOS Diet Plan: What to Eat & Avoid
           </h1>
         </div>
       </section>
