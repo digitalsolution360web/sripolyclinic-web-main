@@ -104,7 +104,7 @@ export default function BestPcosDietBanner() {
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6  text-gray-900">
             Why You Need a PCOS Dietitian in Hanamkonda
           </h2>
 
@@ -131,7 +131,7 @@ export default function BestPcosDietBanner() {
       <section className="w-full py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6   text-gray-900">
             Personalized PCOS Weight Loss Diet Plan in Hanamkonda
           </h2>
 
@@ -154,7 +154,7 @@ export default function BestPcosDietBanner() {
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6   text-gray-900">
             The Best Diet for Irregular Periods & PCOS
           </h2>
 
@@ -188,7 +188,7 @@ export default function BestPcosDietBanner() {
       <section className="w-full py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6   text-gray-900">
             Specialized PCOS Nutrition Treatment at Sri Poly Clinic
           </h2>
 
@@ -211,7 +211,7 @@ export default function BestPcosDietBanner() {
       <section className="w-full py-20 bg-gradient-to-r from-orange-500 to-yellow-400 text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6  text-gray-900">
             Conclusion
           </h2>
 
@@ -228,7 +228,7 @@ export default function BestPcosDietBanner() {
       
       {/* ================= Frequently Asked Questions ================= */}
       <section className="w-full py-16 bg-gray-50 px-6">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-10">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-10   text-gray-900">
           Frequently Asked Questions
         </h2>
 

@@ -103,7 +103,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             Personalized Fat Loss Diet by Nutritionists: Commitment of Sri Poly Clinic Hanamkonda
           </h2>
 
@@ -141,7 +141,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             Why Do We Offer the Best Diet Plan for Weight Loss in Hanamkonda?
           </h2>
 
@@ -172,7 +172,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             Personalized Fat Loss Diet By Nutritionists: Quality Care for All
           </h2>
 
@@ -203,7 +203,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-gradient-to-r from-orange-500 to-yellow-400 text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             Conclusion
           </h2>
 

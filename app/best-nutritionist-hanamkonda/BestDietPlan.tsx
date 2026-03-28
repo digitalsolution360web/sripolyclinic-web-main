@@ -87,7 +87,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             🟢 Personalized Nutrition That Works for You
           </h2>
 
@@ -116,7 +116,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             🟢 Healthy Weight Loss Without Crash Diets
           </h2>
 
@@ -144,7 +144,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             🟢 Complete Wellness – Mind & Body Together
           </h2>
 
@@ -172,7 +172,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             🟢 Yoga & Lifestyle Programs
           </h2>
 
@@ -198,7 +198,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             🟢 Serving Hanamkonda & Nearby Areas
           </h2>
 
@@ -220,7 +220,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             🟢 Why Choose Sri Poly Clinic?
           </h2>
 
@@ -253,7 +253,7 @@ export default function BestDietBanner() {
       <section className="w-full py-20 bg-gradient-to-r from-green-500 to-teal-400 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
 
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
             🟢 Take the First Step Towards Better Health
           </h2>
 
