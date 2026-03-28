@@ -21,8 +21,8 @@ export default function Header() {
     { name: "About", url: "/about" },
     { name: "Services", url: "/services" },
     { name: "Gallery", url: "/gallery" },
+    { name: "Blogs", url: "/blogs" },
     { name: "Contact", url: "/contact" },
-    { name: "Appointment", url: "/appointment" },
   ];
 
   return (

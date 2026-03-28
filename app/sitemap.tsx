@@ -33,6 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: "https://www.sripolyclinic.com/blogs",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: "https://www.sripolyclinic.com/appointment",
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -46,6 +52,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: "https://www.sripolyclinic.com/best-diet-plan-for-weight-loss-in-hanamkonda",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.sripolyclinic.com/best-nutritionist-hanamkonda",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.sripolyclinic.com/best-pcos-dietitian-hanamkonda",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
