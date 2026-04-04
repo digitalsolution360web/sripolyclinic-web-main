@@ -9,9 +9,18 @@ import { FaArrowRight, FaCalendarAlt } from "react-icons/fa";
 
 const allBlogs = [
   {
+    title: "Diabetes Diet Guide by Expert Nutritionist",
+    desc:
+      "Diabetes is rapidly increasing across the globe. It is a major concern for many patients and their relatives to control the parameters in the blood. However, checking the blood sugar level with a mediocre diet is not going to work at all. You need expert guidance and perfect.",
+    image: "/assets/images/aboutbanner.png",
+    category: ["Nutrition", "Psychology", "Yoga"],
+    slug: "/best-diabetes-dietitian-hanamkonda",
+    date: "04 Apr 2026",
+  },
+  {
     title: "PCOS Diet Plan: What to Eat & Avoid",
     desc:
-      "Hormonal equilibrium sometimes gives headaches to many females because of some physical or improper lifestyles in their lives. However, these challenges can be handled with care when diagnosing symptoms early",
+      "Hormonal equilibrium sometimes gives headaches to many females because of some physical or improper lifestyles in their lives. However, these challenges can be handled with care when diagnosing symptoms early.",
     image: "/assets/images/aboutbanner.png",
     category: ["Nutrition", "Psychology", "Yoga"],
     slug: "/best-pcos-dietitian-hanamkonda",
