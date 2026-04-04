@@ -4,37 +4,38 @@ import Image from "next/image";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
-export default function BestDiabetesBanner() {
+export default function BestDiabetesDietBanner() {
   // Correct typing for open index
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faq = [
-  {
-    question: "How does a professional dietitian help more than a general diet chart?",
-    answer:
-      "A professional dietitian provides a bio-individual plan based on your blood work, lifestyle, and food preferences, helping you improve your health effectively."
-  },
-  {
-    question: "Can I eat white rice if I have Type 2 diabetes?",
-    answer:
-      "Yes, but in controlled portions. Rice has a high glycemic index, so moderation is key."
-  },
-  {
-    question: "What are the best Indian snacks for a sugar control diet?",
-    answer:
-      "Chana, makhana, and soaked almonds are excellent snacks for maintaining blood sugar levels."
-  },
-  {
-    question: "Why is Sri Poly Clinic best for diabetes care?",
-    answer:
-      "They use the latest nutrition science and understand local dietary habits, offering personalized care."
-  },
-  {
-    question: "Is fruit safe for diabetic patients?",
-    answer:
-      "Yes, fruits are healthy but should always be consumed in moderation."
-  }
-];
+    {
+      question: "How does a professional dietitian help more than a general diet chart?",
+      answer:
+        "A professional dietitian is the best at providing a bio-individual plan based on your blood work, lifestyle, and food preferences. That's how you improve your health at Sri Poly Clinic."
+    },
+    {
+      question: "Can I eat white rice if I have Type 2 diabetes?",
+      answer:
+        "Did you know rice has a high glycemic index? Still, our professionals recommend adding rice in a controlled amount."
+    },
+    {
+      question: "What are the best Indian snacks for a sugar control diet plan?",
+      answer:
+        "Chana, Makhana, and a handful of soaked almonds are the best Indian snacks to get blood sugar in control."
+    },
+    {
+      question: "Why is Sri Poly Clinic best for diabetes care in Hanamkonda?",
+      answer:
+        "Experts at Sri Poly Clinic use the latest 2026 nutritional science. They also hold a deep understanding of patients' local dietary habits. That's why everyone becomes a trusted Diabetes dietitian in Hanamkonda."
+    },
+    {
+      question: "Is fruit safe for diabetic patients?",
+      answer:
+        "Yes, most fruits are safe and healthy. The only catch is to always use them moderately."
+    }
+  ];
+
   // Toggle Function
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -47,7 +48,7 @@ export default function BestDiabetesBanner() {
       <section className="relative w-full h-[300px] md:h-[500px]">
         <Image
           src="/assets/images/aboutbanner.png"
-          alt="About Clinic"
+          alt="Diabetes Nutrition Care"
           fill
           className="object-cover w-full h-full"
         />
@@ -56,19 +57,19 @@ export default function BestDiabetesBanner() {
 
         <div className="absolute inset-0 flex flex-col justify-center items-center md:items-start max-w-7xl mx-auto px-6">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg">
-  Eat Better, Live Longer: Your Personalized Diabetes Nutrition Blueprint
-</h1>
+            Eat Better, Live Longer: Your Personalized Diabetes Nutrition Blueprint
+          </h1>
         </div>
       </section>
 
-      {/* ================= Introduction ================= */}
+      {/* ================= Introduction: Diabetes Nutrition Care ================= */}
       <section className="w-full py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 md:flex gap-12 items-center">
 
           <div className="md:w-1/2 mb-10 md:mb-0">
             <Image
               src="/assets/images/aboutbanner.png"
-              alt="About Clinic"
+              alt="Diabetes Care"
               width={600}
               height={450}
               className="rounded-3xl shadow-xl object-cover w-full"
@@ -77,115 +78,137 @@ export default function BestDiabetesBanner() {
 
           <div className="md:w-1/2">
             <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
-  Personalized Diabetes Nutrition Blueprint
-</h2>
+              Eat Better, Live Longer: Your Personalized Diabetes Nutrition Blueprint
+            </h2>
 
-<p className="text-gray-800 mb-4 leading-relaxed text-lg">
-  Diabetes is rapidly increasing across the globe and managing blood sugar levels requires more than a basic diet. You need expert guidance and a scientifically planned approach.
-</p>
+            <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+              Diabetes is rapidly increasing across the globe. It is a major concern for many patients and their relatives to control the parameters in the blood. However, checking the blood sugar level with a mediocre diet is not going to work at all. You need expert guidance.
+            </p>
 
-<p className="text-gray-800 mb-4 leading-relaxed text-lg">
-  At Sri Poly Clinic, our clinical dietician in Hanamkonda analyzes your HbA1c levels, BMI, and daily lifestyle to create a personalized plan that is realistic and effective.
-</p>
+            <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+              At Sri Poly Clinic, there is no holding back from getting the perfect and body-friendly diet plan to boost your resistance against diabetes. Our clinical dietician in Hanamkonda analyzes your HbA1c levels, body mass index, and daily activity to create a plan that is both realistic and effective.
+            </p>
 
-<p className="text-gray-800 leading-relaxed text-lg font-semibold text-blue-700">
-  Ready to reclaim your health? Book your diabetes nutrition consultation today!
-</p>
+            <p className="text-gray-800 leading-relaxed text-lg font-semibold text-blue-700">
+              Ready to reclaim your health? Book an appointment with Diabetes nutrition care at Sri Poly Clinic and start your journey to stable sugars!
+            </p>
           </div>
         </div>
       </section>
 
-      {/* ================= Sugar Control Diet ================= */}
+      {/* ================= Crafting a Sustainable Sugar Control Diet Plan ================= */}
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
-  Crafting a Sustainable Sugar Control Diet Plan
-</h2>
+            Crafting a Sustainable Sugar Control Diet Plan
+          </h2>
 
-<p className="text-gray-800 mb-4 text-lg">
-  A diabetes dietitian in Hanamkonda focuses on building a sustainable diet plan tailored to each patient.
-</p>
+          <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+            A diabetes dietitian in Hanamkonda at Sri Poly Clinic focuses strongly on a restrictive diet plan and gives the perfect nutritional assessment to each patient based on their requirements.
+          </p>
 
-<ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg mb-6">
-  <li>Prioritize high-fiber foods to slow sugar absorption</li>
-  <li>Use the Plate Method for portion control</li>
-  <li>Maintain proper hydration for glucose balance</li>
-</ul>
+          <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+            A successful Sugar control diet plan is not available off the shelf. The experts build sugar control. That's why you need an expert to lay the foundation for consistency in what you eat every day. At Sri Poly Clinic, we go beyond just counting calories.
+          </p>
 
-<p className="text-blue-700 font-semibold text-lg">
-  Start your customized sugar control diet today!
-</p>
+          <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+            Let's focus on the principles that our Diabetes dietitian in Hanamkonda draws every time for each patient:
+          </p>
+
+          <ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg mb-6">
+            <li>Prioritize high-fiber ingredients to slow sugar absorption.</li>
+            <li>Use the Plate Method to visualize portion control effortlessly.</li>
+            <li>Proper water intake is essential for kidney health and glucose processing.</li>
+          </ul>
+
+          <p className="text-gray-800 leading-relaxed text-lg font-semibold text-blue-700">
+            Start your diet plan with proven results! Get your customized Sugar control diet plan from Sri Poly Clinic's top specialists now.
+          </p>
 
         </div>
       </section>
 
-      {/* ================= Type 2 Diabetes ================= */}
+      {/* ================= Precision Living with a Type 2 Diabetes Diet Plan ================= */}
       <section className="w-full py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
-  Type 2 Diabetes Diet Plan in Hanamkonda
-</h2>
+            Precision Living with a Type 2 Diabetes Diet Plan in Hanamkonda
+          </h2>
 
-<p className="text-gray-800 mb-4 text-lg">
-  Our Type 2 diabetes diet plan focuses on improving insulin resistance using scientifically proven methods.
-</p>
+          <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+            We created a specialized Type 2 diabetes diet plan in Hanamkonda that focuses on improving insulin resistance through specific superfoods. However, this specialization is not limited to; there are many types of patients consulting with us to get customized output.
+          </p>
 
-<ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg mb-6">
-  <li>Smart food combinations to stabilize insulin</li>
-  <li>Include Omega-3 for heart protection</li>
-  <li>Shift from refined grains to nutrient-rich alternatives</li>
-</ul>
+          <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+            We take some major steps to prepare the Type 2 diabetes diet plan Hanamkonda, such as:
+          </p>
 
-<p className="text-blue-700 font-semibold text-lg">
-  Take control of your diabetes with expert guidance today!
-</p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg mb-6">
+            <li>Learn which food combinations keep your insulin levels flat.</li>
+            <li>Integrating Omega-3s to protect your cardiovascular system.</li>
+            <li>Easy transitions from refined grains to nutrient-dense ancient grains.</li>
+          </ul>
+
+          <p className="text-gray-800 leading-relaxed text-lg font-semibold text-blue-700">
+            Don't let Type 2 manage you—manage it! Contact Sri Poly Clinic for a lifestyle transformation that actually works.
+          </p>
 
         </div>
       </section>
 
-      {/* ================= Why Choose ================= */}
+      {/* ================= Why Choose Diabetes Nutrition Care at Sri Poly Clinic ================= */}
       <section className="w-full py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
-  Why Choose Diabetes Nutrition Care at Sri Poly Clinic?
-</h2>
+            Why Choose Diabetes Nutrition Care at Sri Poly Clinic?
+          </h2>
 
-<ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg mb-6">
-  <li>Advanced technology to track your body’s response</li>
-  <li>Support for mental and lifestyle challenges</li>
-  <li>Personalized and practical diet plans</li>
-</ul>
+          <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+            Choosing diabetes nutrition care at Sri Poly Clinic means you are opting for a multidisciplinary approach. The Diabetes nutrition care at Sri Poly Clinic understands your concerns and gives you the perfect diet plan to manage your diabetes in an effective way.
+          </p>
+
+          <p className="text-gray-800 mb-4 leading-relaxed text-lg">
+            Let's get into the key considerations that make Sri Poly Clinic the perfect choice for diabetic patients:
+          </p>
+
+          <ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg mb-6">
+            <li>Use modern tech to see exactly how your body reacts to different foods.</li>
+            <li>Help you navigate the mental hurdles of a chronic condition.</li>
+            <li>Make you an expert in your own care.</li>
+          </ul>
+
+          <p className="text-gray-800 leading-relaxed text-lg font-semibold text-blue-700">
+            At Sri Poly Clinic, we are dedicated to providing the most advanced diabetes nutrition care in 2026. When you have a personalized Indian diet plan for diabetic patients, you can achieve levels of health you never thought possible.
+          </p>
 
         </div>
       </section>
 
-      
-
       {/* ================= Conclusion ================= */}
-      <section className="w-full py-20 bg-gradient-to-r from-orange-500 to-yellow-400 text-white">
+      <section className="w-full py-20 bg-gradient-to-r from-blue-600 to-cyan-500 text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
 
-          <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
-  Conclusion
-</h2>
+          <h2 className="text-4xl font-extrabold mb-6 text-white">
+            Conclusion
+          </h2>
 
-<p className="text-lg leading-relaxed mb-4">
-  At Sri Poly Clinic, we provide advanced diabetes nutrition care designed for long-term health and stability.
-</p>
+          <p className="text-lg leading-relaxed mb-4 text-white">
+            At Sri Poly Clinic, we are dedicated to providing the most advanced diabetes nutrition care in 2026. When you have a personalized Indian diet plan for diabetic patients, you can achieve levels of health you never thought possible.
+          </p>
 
-<p className="text-lg font-semibold">
-  Visit Sri Poly Clinic and experience the gold standard in diabetes care.
-</p>
+          <p className="text-lg leading-relaxed font-semibold text-white">
+            Visit Sri Poly Clinic and see why our nutrition care is the gold standard.
+          </p>
 
         </div>
       </section>
       
       {/* ================= Frequently Asked Questions ================= */}
       <section className="w-full py-16 bg-gray-50 px-6">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-10   text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-10">
           Frequently Asked Questions
         </h2>
 
