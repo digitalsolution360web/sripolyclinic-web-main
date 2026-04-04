@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 import { FaChevronDown } from "react-icons/fa";
 
 export default function BestDiabetesDietBanner() {
@@ -86,11 +87,11 @@ export default function BestDiabetesDietBanner() {
             </p>
 
             <p className="text-gray-800 mb-4 leading-relaxed text-lg">
-              At Sri Poly Clinic, there is no holding back from getting the perfect and body-friendly diet plan to boost your resistance against diabetes. Our clinical dietician in Hanamkonda analyzes your HbA1c levels, body mass index, and daily activity to create a plan that is both realistic and effective.
+              At <Link href="/" className="underline">Sri Poly Clinic</Link>, there is no holding back from getting the perfect and body-friendly diet plan to boost your resistance against diabetes. Our clinical dietician in Hanamkonda analyzes your HbA1c levels, body mass index, and daily activity to create a plan that is both realistic and effective.
             </p>
 
             <p className="text-gray-800 leading-relaxed text-lg font-semibold text-blue-700">
-              Ready to reclaim your health? Book an appointment with Diabetes nutrition care at Sri Poly Clinic and start your journey to stable sugars!
+              Ready to reclaim your health? <Link href="/appointment" className="underline">Book an appointment</Link> with Diabetes nutrition care at Sri Poly Clinic and start your journey to stable sugars!
             </p>
           </div>
         </div>
@@ -105,7 +106,7 @@ export default function BestDiabetesDietBanner() {
           </h2>
 
           <p className="text-gray-800 mb-4 leading-relaxed text-lg">
-            A diabetes dietitian in Hanamkonda at Sri Poly Clinic focuses strongly on a restrictive diet plan and gives the perfect nutritional assessment to each patient based on their requirements.
+            A diabetes dietitian in Hanamkonda at Sri Poly Clinic focuses strongly on a restrictive diet plan and gives the perfect <Link href="/services/nutrition-assessment" className="underline">nutritional assessment</Link> to each patient based on their requirements.
           </p>
 
           <p className="text-gray-800 mb-4 leading-relaxed text-lg">
@@ -138,7 +139,7 @@ export default function BestDiabetesDietBanner() {
           </h2>
 
           <p className="text-gray-800 mb-4 leading-relaxed text-lg">
-            We created a specialized Type 2 diabetes diet plan in Hanamkonda that focuses on improving insulin resistance through specific superfoods. However, this specialization is not limited to; there are many types of patients consulting with us to get customized output.
+            We created a specialized <Link href="/services/diabetic-diet-plan" className="underline">Type 2 diabetes diet plan in Hanamkonda</Link> that focuses on improving insulin resistance through specific superfoods. However, this specialization is not limited to; there are many types of patients consulting with us to get customized output.
           </p>
 
           <p className="text-gray-800 mb-4 leading-relaxed text-lg">
@@ -167,7 +168,7 @@ export default function BestDiabetesDietBanner() {
           </h2>
 
           <p className="text-gray-800 mb-4 leading-relaxed text-lg">
-            Choosing diabetes nutrition care at Sri Poly Clinic means you are opting for a multidisciplinary approach. The Diabetes nutrition care at Sri Poly Clinic understands your concerns and gives you the perfect diet plan to manage your diabetes in an effective way.
+            Choosing diabetes nutrition care at Sri Poly Clinic means you are opting for a multidisciplinary approach. The Diabetes nutrition care at Sri Poly Clinic understands your concerns and gives you the perfect <Link href="/services/customised-diet-plan" className="underline">diet plan</Link> to manage your diabetes in an effective way.
           </p>
 
           <p className="text-gray-800 mb-4 leading-relaxed text-lg">
