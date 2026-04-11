@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
+import Script from "next/script";
 
 export const metadata = {
   title:
@@ -33,6 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    
       <body>
         <Header />
 
@@ -41,6 +43,21 @@ export default function RootLayout({
         </main>
 
         <Footer />
+        {/* Google Ads / gtag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18081155389"
+          strategy="afterInteractive"
+        />
+
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             window.gtag = gtag;
+             gtag('js', new Date());
+             gtag('config', 'AW-18081155389');
+          `}
+        </Script>
       </body>
     </html>
   );
