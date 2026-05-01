@@ -18,6 +18,15 @@ const allBlogs = [
     date: "01 May 2026",
   },
   {
+    title: "Thyroid Weight Management Diet Plan",
+    desc:
+      "Weight management won't be a problem anymore with the best experts and their proven diet plans. Yes, at Sri Poly Clinic, patients can get the treatment and proven assistance from a trusted Thyroid diet specialist Hanamkonda.",
+    image: "/assets/images/aboutbanner.png",
+    category: ["Nutrition", "Psychology", "Yoga"],
+    slug: "/thyroid-weight-management-diet-plan",
+    date: "13 Apr 2026",
+  },
+  {
     title: "Diabetes Diet Guide by Expert Nutritionist",
     desc:
       "Diabetes is rapidly increasing across the globe. It is a major concern for many patients and their relatives to control the parameters in the blood. However, checking the blood sugar level with a mediocre diet is not going to work at all. You need expert guidance and perfect.",
