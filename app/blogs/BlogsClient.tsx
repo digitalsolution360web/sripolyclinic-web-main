@@ -9,6 +9,15 @@ import { FaArrowRight, FaCalendarAlt } from "react-icons/fa";
 
 const allBlogs = [
   {
+    title: "Child Nutrition: Healthy Diet Plan for Growing Kid",
+    desc:
+      "Starting from childhood, nourishment is always important. That’s why parents should be aware of factors that give their toddlers a perfect blend of taste and nutrition at once. To achieve all the clinical and critical details of Child nutritionist in Hanamkonda, you must consider the best specialists in the nearby location.",
+    image: "/assets/images/aboutbanner.png",
+    category: ["Nutrition", "Psychology", "Yoga"],
+    slug: "/child-nutrition-healthy-diet-growing-kids",
+    date: "01 May 2026",
+  },
+  {
     title: "Diabetes Diet Guide by Expert Nutritionist",
     desc:
       "Diabetes is rapidly increasing across the globe. It is a major concern for many patients and their relatives to control the parameters in the blood. However, checking the blood sugar level with a mediocre diet is not going to work at all. You need expert guidance and perfect.",
