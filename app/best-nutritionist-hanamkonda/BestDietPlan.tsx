@@ -59,7 +59,7 @@ export default function BestDietBanner() {
 
           <div className="md:w-1/2 mb-10 md:mb-0">
             <Image
-              src="/assets/images/aboutbanner.png"
+              src="/assets/images/best-nutritionist-hanamkonda.webp"
               alt="About Clinic"
               width={600}
               height={450}
@@ -296,9 +296,8 @@ export default function BestDietBanner() {
                 {item.question}
 
                 <FaChevronDown
-                  className={`transition-transform duration-300 ${
-                    openIndex === index ? "rotate-180" : ""
-                  }`}
+                  className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""
+                    }`}
                 />
               </button>
 

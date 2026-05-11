@@ -35,6 +35,51 @@ const galleryImages = [
     title: "Clinic Moment",
     gradient: "from-pink-900 via-pink-800 to-pink-900",
   },
+  {
+    src: "/assets/images/award1.webp",
+    title: "Women Icon of Excellence 2026",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award.webp",
+    title: "Excellence in Psychology",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award2.webp",
+    title: "Legacy of Care Award",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award3.webp",
+    title: "Clinical Nutrition Honor",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award4.webp",
+    title: "Mental Health Pioneer",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award5.webp",
+    title: "National Health Icon",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award6.webp",
+    title: "Excellence in Counseling",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award7.webp",
+    title: "Holistic Wellness Recognition",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
+  {
+    src: "/assets/images/award8.webp",
+    title: "Professional Achievement",
+    gradient: "from-yellow-700 via-orange-600 to-yellow-800",
+  },
 ];
 
 export default function GalleryClient() {
@@ -93,20 +138,20 @@ export default function GalleryClient() {
             {galleryImages.map((img, idx) => (
               <div
                 key={idx}
-                className="relative cursor-pointer overflow-hidden rounded-3xl shadow-xl transform transition duration-500 hover:scale-105 hover:rotate-1 h-72 md:h-80 lg:h-96"
+                className="relative cursor-pointer overflow-hidden rounded-3xl shadow-xl transform transition duration-500 hover:scale-105 h-72 md:h-80 lg:h-96"
                 onClick={() => setSelectedImg(img.src)}
               >
-                {/* Image */}
+                {/* Image - Full bleed cover */}
                 <Image
                   src={img.src}
                   alt={img.title}
                   fill
-                  className="object-top object-cover transition-transform duration-500"
+                  className="object-cover object-top transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
 
-                {/* Light black overlay on top */}
-                <div className="absolute inset-0 bg-black/20 hover:bg-black/30 transition rounded-3xl"></div>
+                {/* Light black overlay */}
+                <div className="absolute inset-0 bg-black/10 hover:bg-black/20 transition rounded-3xl pointer-events-none"></div>
 
                 {/* Bottom Dark Gradient + Title */}
                 <div

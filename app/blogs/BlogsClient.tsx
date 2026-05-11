@@ -30,7 +30,7 @@ const allBlogs = [
     title: "Diabetes Diet Guide by Expert Nutritionist",
     desc:
       "Diabetes is rapidly increasing across the globe. It is a major concern for many patients and their relatives to control the parameters in the blood. However, checking the blood sugar level with a mediocre diet is not going to work at all. You need expert guidance and perfect.",
-    image: "/assets/images/aboutbanner.png",
+    image: "/assets/images/best-diabetes-dietitian-hanamkonda.webp",
     category: ["Nutrition", "Psychology", "Yoga"],
     slug: "/best-diabetes-dietitian-hanamkonda",
     date: "04 Apr 2026",
@@ -39,7 +39,7 @@ const allBlogs = [
     title: "PCOS Diet Plan: What to Eat & Avoid",
     desc:
       "Hormonal equilibrium sometimes gives headaches to many females because of some physical or improper lifestyles in their lives. However, these challenges can be handled with care when diagnosing symptoms early.",
-    image: "/assets/images/aboutbanner.png",
+    image: "/assets/images/best-pcos-dietitian-hanamkonda.webp",
     category: ["Nutrition", "Psychology", "Yoga"],
     slug: "/best-pcos-dietitian-hanamkonda",
     date: "28 Mar 2026",
@@ -48,7 +48,7 @@ const allBlogs = [
     title: "Best Nutritionist in Hanamkonda – Sri Poly Clinic",
     desc:
       "If you're looking for the best nutritionist in Hanamkonda, Sri Poly Clinic is the place where your health transformation begins. We don't believe in quick fixes or extreme diets—instead, we focus on practical, personalized solutions that actually fit into your daily life.",
-    image: "/assets/images/aboutbanner.png",
+    image: "/assets/images/best-nutritionist-hanamkonda.webp",
     category: ["Nutrition", "Psychology", "Yoga"],
     slug: "/best-nutritionist-hanamkonda",
     date: "17 Mar 2026",
@@ -57,7 +57,7 @@ const allBlogs = [
     title: "Best Diet Plan for Weight Loss in Hanamkonda",
     desc:
       "Welcome to perfect health wellness in 2026! If you are searching for the right and personalized fat loss diet by nutritionists, you need to find the right weight loss center in Hanamkonda.",
-    image: "/assets/images/aboutbanner.png",
+    image: "/assets/images/best-diet-plan-for-weight-loss-in-hanamkonda.webp",
     category: ["Nutrition", "Psychology", "Yoga"],
     slug: "/best-diet-plan-for-weight-loss-in-hanamkonda",
     date: "03 Mar 2026",
@@ -74,10 +74,10 @@ export default function BlogsBanner() {
   const totalPages = Math.ceil(allBlogs.length / blogsPerPage);
 
   const handlePageChange = (page: number | "prev" | "next") => {
-  if (typeof page === "number") setCurrentPage(page);
-  else if (page === "prev" && currentPage > 1) setCurrentPage(currentPage - 1);
-  else if (page === "next" && currentPage < totalPages) setCurrentPage(currentPage + 1);
-};
+    if (typeof page === "number") setCurrentPage(page);
+    else if (page === "prev" && currentPage > 1) setCurrentPage(currentPage - 1);
+    else if (page === "next" && currentPage < totalPages) setCurrentPage(currentPage + 1);
+  };
 
   return (
     <div className="w-full">
@@ -197,11 +197,10 @@ export default function BlogsBanner() {
             <button
               key={p}
               onClick={() => handlePageChange(p)}
-              className={`px-5 py-2 rounded-lg border font-medium ${
-                p === currentPage
-                  ? "bg-gradient-to-r from-orange-500 to-yellow-400 text-white"
-                  : "bg-white text-gray-600 hover:bg-orange-100"
-              } transition`}
+              className={`px-5 py-2 rounded-lg border font-medium ${p === currentPage
+                ? "bg-gradient-to-r from-orange-500 to-yellow-400 text-white"
+                : "bg-white text-gray-600 hover:bg-orange-100"
+                } transition`}
             >
               {p}
             </button>

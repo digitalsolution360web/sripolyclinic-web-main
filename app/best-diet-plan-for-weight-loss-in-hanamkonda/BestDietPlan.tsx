@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
 export default function BestDietBanner() {
-   // Correct typing for open index
+  // Correct typing for open index
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faq = [
@@ -67,7 +67,7 @@ export default function BestDietBanner() {
 
           <div className="md:w-1/2 mb-10 md:mb-0">
             <Image
-              src="/assets/images/aboutbanner.png"
+              src="/assets/images/best-diet-plan-for-weight-loss-in-hanamkonda.webp"
               alt="About Clinic"
               width={600}
               height={450}
@@ -221,41 +221,40 @@ export default function BestDietBanner() {
 
         </div>
       </section>
-       <section className="w-full py-16 bg-gray-50 px-6">
-      <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-10">
-        Frequently Asked Questions
-      </h2>
+      <section className="w-full py-16 bg-gray-50 px-6">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-10">
+          Frequently Asked Questions
+        </h2>
 
-      <div className="max-w-3xl mx-auto space-y-4">
-        {faq.map((item, index: number) => (
-          <div
-            key={index}
-            className="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden"
-          >
-            {/* Question */}
-            <button
-              onClick={() => toggleFAQ(index)}
-              className="w-full flex justify-between items-center px-5 py-4 text-left text-lg font-semibold text-blue-800 hover:bg-blue-50 transition"
+        <div className="max-w-3xl mx-auto space-y-4">
+          {faq.map((item, index: number) => (
+            <div
+              key={index}
+              className="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden"
             >
-              {item.question}
+              {/* Question */}
+              <button
+                onClick={() => toggleFAQ(index)}
+                className="w-full flex justify-between items-center px-5 py-4 text-left text-lg font-semibold text-blue-800 hover:bg-blue-50 transition"
+              >
+                {item.question}
 
-              <FaChevronDown
-                className={`transition-transform duration-300 ${
-                  openIndex === index ? "rotate-180" : ""
-                }`}
-              />
-            </button>
+                <FaChevronDown
+                  className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""
+                    }`}
+                />
+              </button>
 
-            {/* Answer */}
-            {openIndex === index && (
-              <div className="px-5 py-4 text-gray-700 text-base border-t bg-white animate-fadeIn">
-                {item.answer}
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
-    </section>
+              {/* Answer */}
+              {openIndex === index && (
+                <div className="px-5 py-4 text-gray-700 text-base border-t bg-white animate-fadeIn">
+                  {item.answer}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
 
     </div>
   );

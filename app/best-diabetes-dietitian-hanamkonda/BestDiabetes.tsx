@@ -41,7 +41,7 @@ export default function BestDiabetesDietBanner() {
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-  
+
   return (
     <div className="w-full">
 
@@ -69,7 +69,7 @@ export default function BestDiabetesDietBanner() {
 
           <div className="md:w-1/2 mb-10 md:mb-0">
             <Image
-              src="/assets/images/aboutbanner.png"
+              src="/assets/images/best-diabetes-dietitian-hanamkonda.webp"
               alt="Diabetes Care"
               width={600}
               height={450}
@@ -206,7 +206,7 @@ export default function BestDiabetesDietBanner() {
 
         </div>
       </section>
-      
+
       {/* ================= Frequently Asked Questions ================= */}
       <section className="w-full py-16 bg-gray-50 px-6">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-10">
@@ -227,9 +227,8 @@ export default function BestDiabetesDietBanner() {
                 {item.question}
 
                 <FaChevronDown
-                  className={`transition-transform duration-300 ${
-                    openIndex === index ? "rotate-180" : ""
-                  }`}
+                  className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""
+                    }`}
                 />
               </button>
 
