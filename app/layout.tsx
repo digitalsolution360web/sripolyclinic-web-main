@@ -32,9 +32,142 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const schema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "@id": "https://www.sripolyclinic.com/#medicalclinic",
+  "name": "Sri Poly Clinic",
+  "url": "https://www.sripolyclinic.com/",
+  "telephone": "+91-7702323401",
+  "email": "info@sripolyclinic.com",
+  "description": "Sri Poly Clinic offers Nutrition, Psychology, Yoga Therapy, Weight Management, Diet Planning, Stress Management, Anxiety Counselling, Family Counselling and Wellness Care services in Hanamkonda, Warangal.",
+  "image": "https://www.sripolyclinic.com/images/clinic.jpg",
+  "logo": "https://www.sripolyclinic.com/images/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "#4-4-112, Near Kumarpally Market, Kothur, Kumarpally Area",
+    "addressLocality": "Hanamkonda",
+    "addressRegion": "Telangana",
+    "postalCode": "506001",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "",
+    "longitude": ""
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }
+  ],
+  "priceRange": "₹₹",
+  "founder": {
+    "@type": "Person",
+    "name": "Dr. A. Srilatha"
+  },
+  "medicalSpecialty": [
+    "Nutrition",
+    "Psychology",
+    "Yoga Therapy",
+    "Mental Health",
+    "Weight Management"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Wellness Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Nutrition Assessment"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Customized Diet Plans"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Weight Management"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Anxiety Management"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Stress Management"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Family Counselling"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Career Counselling"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pregnancy Yoga"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Meditation Sessions"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://maps.app.goo.gl/JaUwWakekprxxLjP8",
+    "https://www.facebook.com/profile.php?id=61583836029560",
+    "https://www.instagram.com/sripoly.clinic"
+  ]
+};
   return (
     <html lang="en">
-    
+    <head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
+      </head>
       <body>
         <Header />
 
