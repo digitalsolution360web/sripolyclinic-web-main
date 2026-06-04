@@ -40,14 +40,14 @@ export default function AwardsSection() {
           <div className="inline-flex items-center gap-2 px-3 py-1 mb-4 md:mb-6 bg-gradient-to-r from-orange-500/10 to-transparent border-l-4 border-orange-500 text-orange-600 rounded-r-full text-[9px] md:text-[10px] font-black tracking-[0.2em] uppercase">
             <FaCertificate className="animate-spin-slow" /> Prestigious Honor
           </div>
-          
+
           <h2 className="text-2xl md:text-5xl font-black mb-4 md:mb-6 text-gray-900 leading-[1.1] tracking-tight">
             Women Icon of <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-orange-600 via-orange-500 to-yellow-500">
               Excellence 2026
             </span>
           </h2>
-          
+
           <p className="text-gray-900 text-sm md:text-lg leading-relaxed mb-4 md:mb-6 font-semibold italic border-l-2 border-orange-200 pl-4">
             "Proud to share that Dr. A. Srilatha received the Women Icon of Excellence in Psychology Award 2026 from the Telangana Psychologist Association during their 10 Years Decade Celebrations."
           </p>
@@ -55,7 +55,7 @@ export default function AwardsSection() {
           <p className="text-gray-500 text-sm md:text-lg leading-relaxed mb-6 md:mb-8">
             This award recognizes dedication and contribution in the field of psychology and mental health. Thank you for this prestigious honor and recognition. 🏆
           </p>
-          
+
           <div className="space-y-4 md:space-y-6 mb-8 md:mb-10">
             <div className="group flex items-start gap-4 md:gap-5">
               <div className="mt-0.5 flex-shrink-0 w-8 h-8 md:w-10 md:h-10 rounded-xl bg-orange-50 flex items-center justify-center text-orange-500 text-base md:text-lg shadow-sm group-hover:bg-orange-500 group-hover:text-white transition-all duration-300">
@@ -76,7 +76,7 @@ export default function AwardsSection() {
               </div>
             </div>
           </div>
-          
+
           <div className="flex gap-8 md:gap-10 mt-8 md:mt-10 pt-6 border-t border-gray-100">
             <div>
               <div className="text-xl md:text-2xl font-black text-gray-900 leading-none">2026</div>
@@ -92,14 +92,14 @@ export default function AwardsSection() {
         {/* Right Side: Signature Gallery Layout */}
         <div className="order-1 md:order-2">
           <div className="relative flex flex-col items-center md:items-start gap-8 md:gap-12">
-            
+
             {/* Main Honor - Distinguished Matte Frame */}
-            <div className="relative group max-w-[280px] md:max-w-[340px] w-full">
+            <div className="relative group max-w-[480px] md:max-w-[540px] w-full">
               <div className="absolute -inset-1.5 bg-gradient-to-tr from-yellow-600/10 via-orange-400/5 to-yellow-600/10 rounded-[2rem] blur-xl opacity-0 group-hover:opacity-100 transition duration-1000"></div>
-              <div className="relative aspect-square bg-white rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-[6px] md:border-[8px] border-white p-2 md:p-3 transform transition-all duration-700 group-hover:translate-y-[-5px]">
+              <div className=" aspect-square">
                 {/* Subtle Inner Border */}
-                <div className="absolute inset-1 md:inset-1.5 border border-gray-100 rounded-[1.2rem] md:rounded-[2rem] pointer-events-none"></div>
-                
+                {/* <div className="absolute inset-1 md:inset-1.5 border border-gray-100  pointer-events-none"></div> */}
+
                 <div className="relative w-full h-full rounded-[1.1rem] md:rounded-[2rem] overflow-hidden bg-gray-50/30">
                   <Image
                     src={mainAward}
@@ -109,10 +109,10 @@ export default function AwardsSection() {
                     priority
                   />
                 </div>
-                
+
                 {/* Signature Seal */}
                 <div className="absolute bottom-3 right-3 md:bottom-4 md:right-4 w-10 h-10 md:w-12 md:h-12 bg-orange-600 rounded-full flex items-center justify-center text-white shadow-2xl border-4 border-orange-500/50">
-                   <FaCertificate className="text-base md:text-xl" />
+                  <FaCertificate className="text-base md:text-xl" />
                 </div>
               </div>
 
@@ -125,15 +125,15 @@ export default function AwardsSection() {
             {/* Achievement Slider - Full Visibility Reel */}
             <div className="w-full relative">
               <div className="flex items-center justify-between mb-4 px-2">
-                 <span className="text-[9px] md:text-[10px] font-black text-gray-400 uppercase tracking-[0.4em]">Achievement Gallery</span>
-                 <div className="flex gap-2">
-                    <button className="swiper-button-prev-custom w-7 h-7 md:w-8 md:h-8 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-gray-500 hover:text-orange-500 transition-all">
-                      <span className="text-xs md:text-sm">←</span>
-                    </button>
-                    <button className="swiper-button-next-custom w-7 h-7 md:w-8 md:h-8 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-gray-500 hover:text-orange-500 transition-all">
-                      <span className="text-xs md:text-sm">→</span>
-                    </button>
-                 </div>
+                <span className="text-[9px] md:text-[10px] font-black text-gray-400 uppercase tracking-[0.4em]">Achievement Gallery</span>
+                <div className="flex gap-2">
+                  <button className="swiper-button-prev-custom w-7 h-7 md:w-8 md:h-8 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-gray-500 hover:text-orange-500 transition-all">
+                    <span className="text-xs md:text-sm">←</span>
+                  </button>
+                  <button className="swiper-button-next-custom w-7 h-7 md:w-8 md:h-8 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-gray-500 hover:text-orange-500 transition-all">
+                    <span className="text-xs md:text-sm">→</span>
+                  </button>
+                </div>
               </div>
 
               <Swiper
@@ -162,10 +162,11 @@ export default function AwardsSection() {
                         className="object-cover transition-transform duration-1000 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-3">
-                         <span className="text-[7px] md:text-[8px] text-white font-bold uppercase tracking-widest">Certification 0{index + 1}</span>
+                        <span className="text-[7px] md:text-[8px] text-white font-bold uppercase tracking-widest">Certification 0{index + 1}</span>
                       </div>
                     </div>
                   </SwiperSlide>
+
                 ))}
               </Swiper>
             </div>
